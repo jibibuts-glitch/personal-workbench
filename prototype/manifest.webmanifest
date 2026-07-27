@@ -11,7 +11,7 @@
   "theme_color": "#176b54",
   "icons": [
     {
-      "src": "./assets/fox-icon-1024.png",
+      "src": "./assets/stage-clown-icon-1024.png",
       "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "any maskable"

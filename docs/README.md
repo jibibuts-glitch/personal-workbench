@@ -46,3 +46,4 @@
 | 2026-07-27 | `docs/2026-07-27-个人工作台移动端PRD.md`、`prototype/personal-workbench-mobile.html`、`docs/README.md` | 调整运动详情展示顺序为“记录今天”“本月汇总”“本月记录”，优先提供当日运动录入。 |
 | 2026-07-27 | `docs/2026-07-27-个人工作台移动端PRD.md`、`prototype/personal-workbench-mobile.html`、`docs/README.md` | 将运动模块的本月记录改为日历展示；日期显示运动图标，点击后在日历下方查看当天运动明细。 |
 | 2026-07-27 | `prototype/personal-workbench-mobile.html`、`prototype/manifest.webmanifest`、`prototype/sw.js`、`prototype/supabase-config.js`、`prototype/assets/fox-icon-1024.png`、`supabase/`、`docs/2026-07-27-个人工作台移动端PRD.md` | 接入 Supabase 邮箱免密登录与工作台状态快照同步；新增 PWA 安装、离线应用壳、小狐狸图标、RLS 建表脚本及 Supabase 配置说明。 |
+| 2026-07-27 | `prototype/personal-workbench-mobile.html`、`prototype/manifest.webmanifest`、`prototype/sw.js`、`prototype/assets/stage-clown-icon-1024.png`、`docs/2026-07-27-个人工作台移动端PRD.md` | 将 PWA 的浏览器、iOS 和桌面安装图标替换为小丑舞台图标，并更新离线缓存版本。 |
