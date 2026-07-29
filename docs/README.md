@@ -21,7 +21,7 @@
 
 | 标题 | 路径 | 状态 | 摘要 |
 | --- | --- | --- | --- |
-| 个人工作台移动端 PRD | `2026-07-27-个人工作台移动端PRD.md` | 草案 | 定义喝水、运动、体重、护肤、AI 每日学习及《首尔大学韩国语》学习的一体化手机端工作台。 |
+| 个人工作台移动端 PRD | `2026-07-27-个人工作台移动端PRD.md` | 草案 | 定义喝水、运动、体重、护肤、AI 每日学习、知识库及《首尔大学韩国语》学习的一体化手机端工作台。 |
 
 ## 变更记录
 
@@ -48,3 +48,5 @@
 | 2026-07-27 | `prototype/personal-workbench-mobile.html`、`prototype/manifest.webmanifest`、`prototype/sw.js`、`prototype/supabase-config.js`、`prototype/assets/fox-icon-1024.png`、`supabase/`、`docs/2026-07-27-个人工作台移动端PRD.md` | 接入 Supabase 邮箱免密登录与工作台状态快照同步；新增 PWA 安装、离线应用壳、小狐狸图标、RLS 建表脚本及 Supabase 配置说明。 |
 | 2026-07-27 | `prototype/personal-workbench-mobile.html`、`prototype/manifest.webmanifest`、`prototype/sw.js`、`prototype/assets/stage-clown-icon-1024.png`、`docs/2026-07-27-个人工作台移动端PRD.md` | 将 PWA 的浏览器、iOS 和桌面安装图标替换为小丑舞台图标，并更新离线缓存版本。 |
 | 2026-07-27 | `prototype/personal-workbench-mobile.html`、`docs/2026-07-27-个人工作台移动端PRD.md` | 邮箱免密登录改用可跨移动端邮件客户端回跳的隐式认证流程，并增加失效或已使用链接的提示。 |
+| 2026-07-29 | `prototype/personal-workbench-mobile.html`、`prototype/sw.js`、`docs/2026-07-27-个人工作台移动端PRD.md`、`docs/README.md` | 新增知识库模块：支持分类目录、文章化记录、自动标题、创建时间、备注、单张压缩图片、文章详情与删除；知识库数据纳入邮箱登录后的状态快照同步，并更新离线缓存版本。 |
+| 2026-07-29 | `prototype/personal-workbench-mobile.html`、`prototype/sw.js`、`supabase/knowledge_articles.sql`、`supabase/functions/record-knowledge/index.ts`、`supabase/config.toml`、`supabase/README.md`、`docs/2026-07-27-个人工作台移动端PRD.md` | 新增知识库自动录入方案：知识库文章迁移至独立表并按登录账号隔离；新增由 Codex 调用的受保护 Supabase Edge Function，支持“记录到知识库”指令自动写入，并更新离线缓存版本。 |

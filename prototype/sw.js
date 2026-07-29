@@ -1,4 +1,4 @@
-const CACHE_NAME='personal-workbench-v2';
+const CACHE_NAME='personal-workbench-v4';
 const APP_SHELL=['./','./personal-workbench-mobile.html','./manifest.webmanifest','./supabase-config.js','./assets/stage-clown-icon-1024.png'];
 
 self.addEventListener('install',function(event){event.waitUntil(caches.open(CACHE_NAME).then(function(cache){return cache.addAll(APP_SHELL)}).then(function(){return self.skipWaiting()}))});
