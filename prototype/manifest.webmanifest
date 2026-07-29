@@ -1,0 +1,20 @@
+{
+  "id": "./personal-workbench-mobile.html",
+  "name": "个人工作台",
+  "short_name": "个人工作台",
+  "description": "记录健康习惯与学习进度的个人工作台",
+  "lang": "zh-CN",
+  "start_url": "./personal-workbench-mobile.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f8f4",
+  "theme_color": "#176b54",
+  "icons": [
+    {
+      "src": "./assets/stage-clown-icon-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
